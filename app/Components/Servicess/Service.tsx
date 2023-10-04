@@ -3,6 +3,8 @@ import Image from 'next/image'
  import integration from "@/public/assets/integration.svg"
  import coding from "@/public/assets/coding.svg"
  import Graphique from "@/public/assets/graphic.svg"
+ import download from "@/public/assets/download.svg"
+ //import round from "@/public/assets/round.png"
 import React from 'react'
 
 export const Service = () => {
@@ -13,8 +15,8 @@ export const Service = () => {
          -Services-
        </h1>
        
-       <div className='flex justify-center items-center flex-wrap'>
-       <div className='grid grid-cols-4 gap-6 '>
+       <div className='flex justify-center items-center w-full'>
+       <div className='grid grid-cols-4 gap-6'>
         
         <div className='flex flex-col items-center justify-center border-dashed border-2 shadow-2xl border-pblue w-60 pt-4 rounded-xl transition-all cursor-pointer hover:bg-pblue hover:transition-all hover:-translate-y-4'>
             <div className='rounded-full bg-white w-20 h-20 p-5 shadow-md'>
@@ -51,11 +53,24 @@ export const Service = () => {
         </div>
 
 
-   
-       
        </div>
+      
 
        </div>
+                    <div>
+
+                <div className='w-full mt-20 flex justify-center items-center'>
+                    <div className=' bg-pblue w-3/4 h-60 flex justify-around items-center shadow-2xl'>
+                        <div className='flex flex-col'>
+                        <div className='text-3xl font-extrabold'>En savoir plus sur mon parcours</div>
+                        <div className='text-gray-200'>Ma détermination c’est ça ma magie</div>
+                        </div>
+                        <button className='flex justify-center items-center border-2 bg-pblue bg-opacity-60 text-xl px-8 py-3 shadow-2xl hover:bg-fpblue'><Image src={download} alt='download'className='w-10' /><span className='pl-2'>Télécharger</span></button>
+                    </div>
+                   
+                
+                </div>
+                </div>
 
     </div>
   )

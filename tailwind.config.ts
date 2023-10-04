@@ -9,6 +9,7 @@ const config: Config = {
   ],
   theme: {
     colors: {
+      'fpblue':"#2E83E7",
       'pblue': '#328AF1',
       'white': '#FFFFFF',
       'bg-col':'#000C1C',
