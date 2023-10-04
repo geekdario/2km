@@ -4,6 +4,7 @@ import { Hero } from '@/app/Components/Hero/Hero'
 import { Navbar } from '@/app/Components/Navbar/Navbar'
 import { Projets } from '@/app/Components/Projets/Projets'
 import React from 'react'
+import { Service } from '@/app/Components/Servicess/Service'
 
 
 
@@ -15,6 +16,7 @@ export default function Accueil() {
     <Navbar/>
      <Hero/>
      <Competences/>
+     <Service/>
      <Projets/> 
 
      I</div>

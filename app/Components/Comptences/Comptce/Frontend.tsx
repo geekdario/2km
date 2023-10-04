@@ -15,7 +15,7 @@ export const Frontend = () => {
           <Image src={imreact} alt='React' className='w-9' />
         <div className='ml-2'>
           <h3 className='text-l text-white'>React JS</h3>
-          <ul className='text-xs pl-3 list-disc'><li>Bon niveau</li></ul>
+        <ul className='text-xs pl-3 list-disc '><li>Bon niveau</li></ul>
         </div>
       </div>
              {/* Next js */}
