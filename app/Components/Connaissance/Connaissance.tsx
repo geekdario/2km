@@ -22,8 +22,12 @@ export const Connaissance = () => {
                     <Image src={imTailwind} alt='TailwindCss' className='w-12 pr-2 ' />
                     <Image src={imTypescript} alt='Typescript' className='w-12 pr-2' />
                     </div>
+                   
                 <div className=' flex  items-center flex-col mt-10'>
-             <p className='mb-10'>Lorem Ipsum is simply dummy text of the printing and typesetting
+                   
+             <p className='mb-10'>
+                <p className='text-2xl pb-3'>  Lorem Ipsum-Ipsum </p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy text
                 ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.</p>
