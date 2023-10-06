@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import imreact from "@/public/assets/React.png"
+import imreact from "@/public/assets/React.svg"
 import imnext from "@/public/assets/next-js.png"
 import imjavascript from "@/public/assets/javascript.png"
-import imTailwind from "@/public/assets/Tailwindcss.png"
-import imTypescript from "@/public/assets/typescript.png"
+import imTailwind from "@/public/assets/Tailwindcss.svg"
+import imTypescript from "@/public/assets/typescript.svg"
 import imframer from "@/public/assets/Framermotion.png"
 
 export const Frontend = () => {

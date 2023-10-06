@@ -4,9 +4,9 @@ import Gmail from "@/public/assets/Gmail.png"
 import GitHub from "@/public/assets/github.png"
 import Linkedln from "@/public/assets/linkedin.png"
 import Geek from "@/public/assets/geek.png"
-import imheroreact from '@/public/assets/React.png'
+import imheroreact from '@/public/assets/React.svg'
 import imherojs from '@/public/assets/javascript.png'
-import imherotail from '@/public/assets/Tailwindcss.png'
+import imherotail from '@/public/assets/Tailwindcss.svg'
 
 export const Hero = () => {
   return (
