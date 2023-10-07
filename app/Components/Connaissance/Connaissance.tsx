@@ -21,18 +21,20 @@ export const Connaissance = () => {
                     <Image src={imreact} alt='React' className='w-12 pr-2' /> 
                     <Image src={imTailwind} alt='TailwindCss' className='w-12 pr-2 ' />
                     <Image src={imTypescript} alt='Typescript' className='w-12 pr-2' />
+                    
                     </div>
                    
                 <div className=' flex  items-center flex-col mt-10'>
                    
-             <p className='mb-10'>
+             <div className='mb-10'>
                 <p className='text-2xl pb-3'>  Lorem Ipsum-Ipsum </p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy text
                 ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.</p>
+                of type and scrambled it to make a type specimen book.</div>
 
-                <button className='border-1 bg-fpblue  text-xl px-11 py-4 shadow-2xl rounded hover:bg-pblue hover:brightness-150 '><span className='pl-2 uppercase font-semibold'>Consulter mes projets</span></button>
+                <button className='border-1 bg-fpblue  text-xl px-11 py-4 shadow-2xl rounded hover:bg-pblue hover:brightness-150 transition-all delay-150'>
+                    <span className='pl-2 uppercase font-semibold'>Consulter mes projets</span></button>
                 
                 </div>
                

@@ -11,7 +11,7 @@ export const Service = () => {
   return (
     <div className='w-full mt-20'>
 
-        <h1 className='text-3xl text-center m-20'>
+        <h1 className='text-3xl text-center m-20 font-extrabold'>
          -Services-
        </h1>
        

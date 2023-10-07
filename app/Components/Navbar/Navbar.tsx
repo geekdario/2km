@@ -10,8 +10,9 @@ export const Navbar = () => {
       <div className='flex justify-center items-center'>
       <ul className='flex justify-center items-center'>
         <li className='mx-4 border-b-4 border-b-pblue transition-all rounded hover:border-b-4 '><a href="#">Competences</a></li>
-        <li className='mx-4  hover:border-b-4 hover: border-b-pblue transition-all hover:rounded  hover:transition-all'><a href="#">Projets</a></li>
-        <li className='mx-4 hover:border-b-4 hover: border-b-pblue transition-all hover:rounded hover:transition-all'><a href="#">Contact</a></li>
+        <li className='mx-4  hover:border-b-4 hover: border-b-pblue transition-all delay-150 hover:rounded '><a href="#">Services</a></li>
+        <li className='mx-4  hover:border-b-4 hover: border-b-pblue transition-all delay-150 hover:rounded '><a href="#">Projets</a></li>
+        <li className='mx-4 hover:border-b-4 hover: border-b-pblue transition-all delay-150 hover:rounded'><a href="#">Contact</a></li>
         
       </ul>
       <a href="#" className='transition-all bg-pblue  ml-10 py-2 px-3 rounded-full hover:bg-white hover:text-pblue hover:scale-110'>Telecharger CV</a>

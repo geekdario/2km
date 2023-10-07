@@ -10,30 +10,31 @@ import imherotail from '@/public/assets/Tailwindcss.svg'
 
 export const Hero = () => {
   return (
-    <div  className=' w-full flex justify-center items-center pt-16'>
+    <div  className=' w-full flex justify-center items-center pt-16 '>
         <div className="">
           <span>Salut! je suis- </span>
           <h2 className='text-4xl text-pblue font-extrabold'>Kouadio Kouakou Médard</h2>
           <h3 className='text-2xl font-extrabold'>Développeur Web & Desktop & Webdesigner</h3>
-          <div className='pt-8 text-l'>
-            Passionné du monde de l'informatique plus précisément<br/>  en développement d'applications,j'en ai décidé d'en faire <br/> mon métier. De nature curieuse, le monde de l'informatique<br/>  permet de m'épanouir et d'une autre façon d'apprendre.
+          <div className='pt-6 text-l'>
+            Passionné du monde de l'informatique plus précisément<br/>  en développement d'applications,j'en ai décidé d'en faire <br/> mon métier. De nature curieuse, le monde de l'informatique<br/>  permet de m'épanouir et d'une autre façon d'apprendre <br/>alors jetez un coup d'oeil à
+            mes compétences et services.
             </div>
           <div className='flex flex-col pt-2'>
             <div className='flex'>
-            <button className='flex justify-center items-center bg-pblue p-2 m-2  rounded-2xl shadow-lg transition-all hover:bg-fpblue hover:brightness-150' >
+            <a className='flex justify-center items-center bg-pblue p-2 m-2  rounded-2xl shadow-lg transition-all delay-150 hover:bg-fpblue hover:brightness-150 cursor-pointer' >
                 <Image src={GitHub} alt="l'image de GitHub"className='w-8'/>
                 <span className='px-2 text-white font-bold'>GitHub</span>
-              </button>
-              <button  className='flex justify-center items-center bg-pblue p-2 m-2 rounded-2xl shadow-lg transition-all hover:bg-fpblue hover:brightness-150'>
+              </a>
+              <a  className='flex justify-center items-center bg-pblue p-2 m-2 rounded-2xl shadow-lg transition-all delay-150 hover:bg-fpblue hover:brightness-150 cursor-pointer'>
                   <Image src={Linkedln} alt="l'image de Linkedln" className='w-8'/>
                   <span className='px-2 text-white font-bold  hover:text-gray-50'>Linkedln</span>
-              </button>
+              </a>
 
             </div>
-            <div>
-            <button  className='flex justify-center items-center bg-pblue p-2 m-2 rounded-2xl shadow-lg transition-all hover:bg-fpblue hover:brightness-150'>
+            <div className='w-72'>
+            <a className='flex justify-center items-center bg-pblue p-2 m-2 rounded-2xl shadow-lg transition-all delay-150 hover:bg-fpblue hover:brightness-150'>
               <Image src={Gmail} alt="l'image de GitHub" className='w-8 '/>
-              <span className='px-3 text-white font-bold '>geekdario95@gmail.com</span></button>
+              <span className='px-3 text-white font-bold '>geekdario95@gmail.com</span></a>
               
 
             </div>
@@ -47,10 +48,14 @@ export const Hero = () => {
             </div>
             <Image src={Geek} alt='photo geek' className='absolute w-36 -top-8 right-12'/>
             <Image src={imherojs} alt='photo js' className='absolute w-10 top-2 -right-3 rounded shadow-lg animate-bounce'/>
-            <Image src={imheroreact} alt='photo react' className='absolute w-12 top-6 -left-6 rounded  animate-bounce'/>
-            <Image src={imherotail} alt='photo tailwind' className='absolute w-12 bottom-5 -left-5 rounded  animate-bounce'/>
+            <Image src={imheroreact} alt='photo react' className='absolute w-12 top-6 -left-6 rounded  animate-bounce [animation-delay:-.3s]'/>
+            <Image src={imherotail} alt='photo tailwind' className='absolute w-12 bottom-5 -left-5 rounded  animate-bounce [animation-delay:-.5s]'/>
            
         </div>
+
+
+
+
       </div>
   )
 }

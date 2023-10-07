@@ -4,6 +4,8 @@ import { Frontend } from './Comptce/Frontend'
 import { Backend } from './Comptce/Backend'
 import { Design } from './Comptce/Design'
 import { Autres } from './Comptce/Autres'
+import Image from 'next/image'
+import telecom from "@/public/assets/Telecommuting.png"
 
 export const Competences = () => {
 
@@ -35,9 +37,13 @@ export const Competences = () => {
 
   return (
     <div className='w-full pt-20'>
-      <h1 className='text-3xl text-center'>
+      <h1 className='text-3xl text-center font-extrabold m-3'>
          -Competences-
       </h1>
+      <div className='flex justify-center items-center'>
+      <Image src={telecom} alt='telecom' className='w-1/3'/>
+
+      </div>
       <div>
         <ul className='flex justify-center text-xl pt-5 ' >
         {  comptces.map((comptce,index)=>(<li key={index} className={`ml-10 cursor-pointer ${index===lienActive ? "text-pblue border-b-4 border-b-pblue transition all scale-110 translate-x delay-75":""}`} onClick={()=>HandleClick(index)}>{comptce}</li>))}
