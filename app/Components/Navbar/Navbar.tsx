@@ -31,7 +31,7 @@ export const Navbar = () => {
       <div className='absolute right-4 md:hidden'>
         <button onClick={()=>handleClick()}>
 
-        { isopen ? (<XMarkIcon className="h-8 w-8 text-blue-500" />):(<Bars3Icon className="h-8 w-8 text-blue-500" />)}
+        { isopen ? (<XMarkIcon className="h-8 w-8 text-blue-500   " />):(<Bars3Icon className="h-8 w-8 text-blue-500" />)}
         </button>
        
         
