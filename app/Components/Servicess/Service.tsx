@@ -17,9 +17,9 @@ export const Service = () => {
        
        <div className='flex justify-center items-center w-full'>
 
-       <div className='grid md:grid-cols-4 md:gap-6'>
+       <div className='grid grid-cols-1 gap-4 md:grid-cols-4 md:gap-6'>
         
-        <div className='flex flex-col items-center justify-center border-dashed border-2 shadow-2xl border-pblue w-60 pt-4 rounded-xl transition-all cursor-pointer hover:bg-pblue hover:transition-all hover:-translate-y-4'>
+        <div className='flex flex-col items-center justify-center border-dashed border-2 shadow-2xl border-pblue w-60 pt-4 rounded-xl transition-all cursor-pointer hover:bg-pblue hover:transition-all hover:-translate-y-2 md:hover:-translate-y-4'>
             <div className='rounded-full bg-white w-20 h-20 p-5 shadow-md'>
                 <Image src={webdesign} alt="Webdesign" className='w-10 '/>
             </div>
@@ -27,7 +27,7 @@ export const Service = () => {
             <p className='text-center p-5'>Réalisation complete de maquette pour votre site vitrine,application web et mobile </p>
         </div>
 
-        <div className='flex flex-col items-center justify-center border-dashed border-2 shadow-2xl border-pblue w-60 pt-4 rounded-xl transition-all cursor-pointer hover:bg-pblue hover:transition-all hover:-translate-y-4'>
+        <div className='flex flex-col items-center justify-center border-dashed border-2 shadow-2xl border-pblue w-60 pt-4 rounded-xl transition-all cursor-pointer hover:bg-pblue hover:transition-all hover:-translate-y-2 md:hover:-translate-y-4'>
             <div className='rounded-full bg-white w-20 h-20 p-5 shadow-md'>
                 <Image src={integration} alt="Webdesign" className='w-10 '/>
             </div>
@@ -36,7 +36,7 @@ export const Service = () => {
         </div>
 
 
-        <div className='flex flex-col items-center justify-center border-dashed border-2 shadow-2xl border-pblue w-60 pt-4 rounded-xl transition-all cursor-pointer hover:bg-pblue hover:transition-all hover:-translate-y-4'>
+        <div className='flex flex-col items-center justify-center border-dashed border-2 shadow-2xl border-pblue w-60 pt-4 rounded-xl transition-all cursor-pointer hover:bg-pblue hover:transition-all hover:-translate-y-2 md:hover:-translate-y-4'>
             <div className='rounded-full bg-white w-20 h-20 p-5 shadow-md'>
                 <Image src={coding} alt="Webdesign" className='w-10 '/>
             </div>
@@ -45,7 +45,7 @@ export const Service = () => {
         </div>
 
 
-        <div className='flex flex-col items-center justify-center border-dashed border-2 shadow-2xl border-pblue w-60 pt-4 rounded-xl transition-all cursor-pointer hover:bg-pblue hover:transition-all hover:-translate-y-4'>
+        <div className='flex flex-col items-center justify-center border-dashed border-2 shadow-2xl border-pblue w-60 pt-4 rounded-xl transition-all cursor-pointer hover:bg-pblue hover:transition-all hover:-translate-y-2 md:hover:-translate-y-4'>
             <div className='rounded-full bg-white w-20 h-20 p-5 shadow-md'>
                 <Image src={Graphique} alt="Webdesign" className='w-10 '/>
             </div>
