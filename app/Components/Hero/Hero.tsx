@@ -31,7 +31,7 @@ export const Hero = () => {
               </a>
 
             </div>
-            <div className='w-72 mb-4'>
+            <div className='w-72 mb-8'>
             <a className='flex justify-center items-center bg-pblue p-2 m-2 rounded-2xl shadow-lg transition-all delay-150 hover:bg-fpblue hover:brightness-150'>
               <Image src={Gmail} alt="l'image de GitHub" className='w-8 '/>
               <span className='px-3 text-white font-bold '>geekdario95@gmail.com</span></a>
@@ -43,11 +43,11 @@ export const Hero = () => {
 
 
         <div className=' relative mx-20'>
-            <div className='hidden md:flex bg-gradient-to-tr from-pblue via-pblue to-white  w-64 h-96  rounded-3xl shadow-lg '>
+            <div className='flex bg-gradient-to-tr from-pblue via-pblue to-white  w-64 h-96  rounded-3xl shadow-lg '>
            
             </div>
-            <Image src={Geek} alt='photo geek' className='absolute -right-2 -top-20 w-36 md:-top-8 md:right-12'/>
-            <Image src={imherojs} alt='photo js' className='absolute w-10 top-2 -right-3 rounded shadow-lg animate-bounce'/>
+            <Image src={Geek} alt='photo geek' className='absolute right-24 -top-8 w-36 md:-top-8 md:right-12'/>
+            <Image src={imherojs} alt='photo js' className='absolute w-10 top-2 right-12 rounded shadow-lg animate-bounce'/>
             <Image src={imheroreact} alt='photo react' className='absolute w-12 top-6 -left-6 rounded  animate-bounce [animation-delay:-.3s]'/>
             <Image src={imherotail} alt='photo tailwind' className='absolute w-12 bottom-5 -left-5 rounded  animate-bounce [animation-delay:-.5s]'/>
            
