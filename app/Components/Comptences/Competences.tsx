@@ -45,13 +45,13 @@ export const Competences = () => {
 
       </div>
       <div>
-        <ul className='flex justify-center text-xl pt-5 ' >
+        <ul className=' flex justify-center md:text-xl pt-5 ' >
         {  comptces.map((comptce,index)=>(<li key={index} className={`ml-10 cursor-pointer ${index===lienActive ? "text-pblue border-b-4 border-b-pblue transition all scale-110 translate-x delay-75":""}`} onClick={()=>HandleClick(index)}>{comptce}</li>))}
         
           
         </ul>
         
-        <div className='w-2/3 h-1 bg-pblue mt-0 mx-60 opacity-25'>
+        <div className='hidden md:flex  w-2/3 h-1 bg-pblue mt-0 mx-60 opacity-25'>
         </div>
       </div>
       <main className='w-full h-36 flex justify-center items-center'>

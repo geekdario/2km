@@ -9,7 +9,7 @@ import imframer from "@/public/assets/Framermotion.png"
 
 export const Frontend = () => {
   return (
-    <div className='grid grid-cols-3 gap-4 mt-4'>
+    <div className='grid grid-cols-2 mt-14 md:grid-cols-3 gap-4 md:mt-4'>
         {/* React js */}
         <div className=' flex justify-center items-center border pr-5 py-1 rounded-xl bg-pblue bg-opacity-20 border-pblue border-opacity-75  hover:border-pblue cursor-pointer hover:animate-pulse'>
           <Image src={imreact} alt='React' className='w-9' />
