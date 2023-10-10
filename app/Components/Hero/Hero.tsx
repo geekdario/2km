@@ -10,12 +10,12 @@ import imherotail from '@/public/assets/Tailwindcss.svg'
 
 export const Hero = () => {
   return (
-    <div  className=' w-full flex flex-wrap justify-center items-center pt-16 '>
+    <div  className=' w-full md:flex flex-wrap justify-center items-center md:pt-16 '>
         <div className="">
-          <span>Salut! je suis- </span>
-          <h2 className='text-4xl text-pblue font-extrabold'>Kouadio Kouakou Médard</h2>
-          <h3 className='text-2xl font-extrabold'>Développeur Web & Desktop & Webdesigner</h3>
-          <div className='pt-6 text-l'>
+          <div className='text-center text-xl md:text-left'>Salut! je suis- </div>
+          <h2 className=' text-3xl text-center md:text-left md:text-4xl text-pblue font-extrabold'>Kouadio Kouakou Médard</h2>
+          <h3 className=' text-center text-3xl md:text-2xl font-extrabold'>Développeur Web & Desktop & Webdesigner</h3>
+          <div className='text-xs text-center pt-6 md:text-l'>
             Passionné du monde de l'informatique plus précisément<br/>  en développement d'applications,j'en ai décidé d'en faire <br/> mon métier. De nature curieuse, le monde de l'informatique<br/>  permet de m'épanouir et d'une autre façon d'apprendre <br/>alors jetez un coup d'oeil à
             mes compétences et services.
             </div>

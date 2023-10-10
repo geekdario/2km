@@ -28,7 +28,7 @@ export const Navbar = () => {
       </ul>
       <a href="#" className='hidden md:block -transition-all bg-pblue  ml-10 py-2 px-3 rounded-full hover:bg-white hover:text-pblue hover:scale-110'>Telecharger CV</a>
       </div>
-      <div className='absolute right-0 md:hidden'>
+      <div className='absolute right-4 md:hidden'>
         <button onClick={()=>handleClick()}>
 
         { isopen ? (<XMarkIcon className="h-8 w-8 text-blue-500" />):(<Bars3Icon className="h-8 w-8 text-blue-500" />)}
