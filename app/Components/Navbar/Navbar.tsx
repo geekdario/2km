@@ -18,7 +18,7 @@ export const Navbar = () => {
       <div className='text-4xl font-bold border-2 rounded w-20 h-auto border-pblue text-center'>
         2K<span className='text-pblue'>M</span>
       </div>
-      <div className={`bg-fpblue md:flex justify-center items-center ${isopen ? "block absolute w-42 right-2 top-11 rounded-lg shadow shadow-black text-center text-xl p-5 " :"hidden"}`}>
+      <div className={` md:flex justify-center items-center ${isopen ? "block absolute bg-fpblue w-42 right-2 top-11 rounded-lg shadow shadow-black text-center text-xl p-5 " :"hidden"}`}>
       <ul className=' md:flex justify-center items-center'>
         <li className='mx-4 border-b-4 border-b-pblue transition-all rounded hover:border-b-4 '><a href="#">Competences</a></li>
         <li className='mx-4  hover:border-b-4 hover: border-b-pblue transition-all delay-150 hover:rounded '><a href="#">Services</a></li>
