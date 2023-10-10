@@ -43,11 +43,11 @@ export const Hero = () => {
 
 
         <div className=' relative mx-20'>
-            <div className='flex bg-gradient-to-tr from-pblue via-pblue to-white  w-64 h-96  rounded-3xl shadow-lg '>
+            <div className='flex relative bg-gradient-to-tr from-pblue via-pblue to-white  w-64 h-96  rounded-3xl shadow-lg '>
            
             </div>
-            <Image src={Geek} alt='photo geek' className='absolute right-24 -top-8 w-36 md:-top-8 md:right-12'/>
-            <Image src={imherojs} alt='photo js' className='absolute w-10 top-2 right-12 rounded shadow-lg animate-bounce'/>
+            <Image src={Geek} alt='photo geek' className='absolute right-24 -top-8 w-36 sm:left-8 md:-top-8 md:right-12'/>
+            <Image src={imherojs} alt='photo js' className='absolute w-10 top-2 right-12 sm:left-56  rounded shadow-lg animate-bounce'/>
             <Image src={imheroreact} alt='photo react' className='absolute w-12 top-6 -left-6 rounded  animate-bounce [animation-delay:-.3s]'/>
             <Image src={imherotail} alt='photo tailwind' className='absolute w-12 bottom-5 -left-5 rounded  animate-bounce [animation-delay:-.5s]'/>
            

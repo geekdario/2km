@@ -7,15 +7,15 @@ import imTypescript from "@/public/assets/typescript.svg"
 
 export const Connaissance = () => {
   return (
-    <div className='w-full h-screen my-20  bg-fpblue bg-opacity-20  '>
+    <div className='w-full my-5 bg-fpblue bg-opacity-20  '>
         <div className='p-9'>
         <h3 className='text-2xl font-extrabold'>Projet en avant</h3>
         <p className='text-gray-200'>un projet de validation de connaissance apres ma formation</p>
         </div>
 
-        <div className='flex justify-center items-center'>
+        <div className='flex justify-center items-center flex-col md:flex-row'>
 
-                <Image src={pjt} alt='PROJET' className='p-10 w-3/6 shadow-2xl bg'/>
+                <Image src={pjt} alt='projet' className='p-10 w-3/6 shadow-2xl bg'/>
             <div className='mx-6'>
                 <div className='flex justify-start items-center'>
                     <Image src={imreact} alt='React' className='w-12 pr-2' /> 
@@ -26,7 +26,7 @@ export const Connaissance = () => {
                    
                 <div className=' flex  items-center flex-col mt-10'>
                    
-             <div className='mb-10'>
+             <div className='pb-10'>
                 <p className='text-2xl pb-3'>  Lorem Ipsum-Ipsum </p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy text

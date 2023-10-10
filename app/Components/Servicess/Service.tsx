@@ -58,19 +58,19 @@ export const Service = () => {
       
 
        </div>
-                    <div>
+             <div>
 
-                <div className='w-full mt-20 flex justify-center items-center'>
-                    <div className=' bg-pblue w-3/4 h-60 flex justify-around items-center shadow-2xl '>
-                        <div className='flex flex-col'>
-                        <div className='text-3xl font-extrabold'>En savoir plus sur mon parcours</div>
-                        <div className='text-gray-200'>Ma détermination c'est ça ma magie</div>
+                    <div className='w-full mt-20 flex justify-center items-center'>
+                        <div className=' bg-pblue w-3/4 h-60 flex justify-around items-center flex-col sm:flex-col sm:px-3 md:flex-row shadow-2xl '>
+                            <div className='flex flex-col'>
+                                <div className='text-3xl font-extrabold'>En savoir plus sur mon parcours</div>
+                                <div className='text-gray-200'>Ma détermination c'est ça ma magie</div>
+                            </div>
+                            <button className='flex justify-center items-center border-2 bg-pblue bg-opacity-60 text-xl px-8 py-3 shadow-2xl rounded hover:bg-fpblue'><Image src={download} alt='download'className='w-10' /><span className='pl-2'>Télécharger</span></button>
                         </div>
-                        <button className='flex justify-center items-center border-2 bg-pblue bg-opacity-60 text-xl px-8 py-3 shadow-2xl rounded hover:bg-fpblue'><Image src={download} alt='download'className='w-10' /><span className='pl-2'>Télécharger</span></button>
+                    
+                    
                     </div>
-                   
-                
-                </div>
                 </div>
 
     </div>
