@@ -22,10 +22,10 @@ export default function Accueil() {
 </svg>
 
        <div>
-            <div className='font-semibold'>
+            <div className='font-semibold text-xs'>
                 Contactez-moi
            </div>
-            <div>
+            <div className='text-xs'>
              07 87 76 61 09
             </div>
        </div>

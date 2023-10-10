@@ -10,7 +10,7 @@ import imherotail from '@/public/assets/Tailwindcss.svg'
 
 export const Hero = () => {
   return (
-    <div  className=' w-full flex justify-center items-center pt-16 '>
+    <div  className=' w-full flex flex-wrap justify-center items-center pt-16 '>
         <div className="">
           <span>Salut! je suis- </span>
           <h2 className='text-4xl text-pblue font-extrabold'>Kouadio Kouakou Médard</h2>
