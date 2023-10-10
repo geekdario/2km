@@ -17,7 +17,7 @@ export const Connaissance = () => {
 
                 <Image src={pjt} alt='projet' className='p-10 w-3/6 shadow-2xl bg'/>
             <div className='mx-6'>
-                <div className='flex justify-start items-center'>
+                <div className='flex justify-center pt-2 md:justify-start items-center'>
                     <Image src={imreact} alt='React' className='w-12 pr-2' /> 
                     <Image src={imTailwind} alt='TailwindCss' className='w-12 pr-2 ' />
                     <Image src={imTypescript} alt='Typescript' className='w-12 pr-2' />
@@ -33,7 +33,7 @@ export const Connaissance = () => {
                 ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.</div>
 
-                <button className='border-1 bg-fpblue  text-xl px-11 py-4 shadow-2xl rounded hover:bg-pblue hover:brightness-150 transition-all delay-150'>
+                <button className='border-1 bg-fpblue text-md  mb-3 md:text-xl px-11 py-4 shadow-2xl rounded hover:bg-pblue hover:brightness-150 transition-all delay-150'>
                     <span className='pl-2 uppercase font-semibold'>Consulter mes projets</span></button>
                 
                 </div>
