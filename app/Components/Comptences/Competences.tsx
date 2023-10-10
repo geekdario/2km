@@ -45,7 +45,7 @@ export const Competences = () => {
 
       </div>
       <div>
-        <ul className=' flex justify-center md:text-xl pt-5 ' >
+        <ul className=' flex justify-center text-sm md:text-xl pt-5 ' >
         {  comptces.map((comptce,index)=>(<li key={index} className={`ml-10 cursor-pointer ${index===lienActive ? "text-pblue border-b-4 border-b-pblue transition all scale-110 translate-x delay-75":""}`} onClick={()=>HandleClick(index)}>{comptce}</li>))}
         
           
