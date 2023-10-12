@@ -14,18 +14,19 @@ export const Hero = () => {
         <div className="">
           <div className='text-center text-xl md:text-left'>Salut! je suis- </div>
           <h2 className=' text-3xl text-center md:text-left md:text-4xl text-pblue font-extrabold'>Kouadio Kouakou Médard</h2>
-          <h3 className=' text-center text-3xl md:text-2xl md:text-left font-extrabold'>Développeur Web & Desktop & Webdesigner</h3>
-          <div className='text-xs text-center pt-6 md:text-xl md:text-left'>
+          <h3 className=' text-center text-3xl sm:text-xl md:text-2xl md:text-left font-extrabold'>Développeur Web & Desktop & Webdesigner</h3>
+          <div className='text-xs text-center pt-6 md:text-sm md:text-left'>
             Passionné du monde de l'informatique plus précisément<br/>  en développement d'applications,j'en ai décidé d'en faire <br/> mon métier. De nature curieuse, le monde de l'informatique<br/>  permet de m'épanouir et d'une autre façon d'apprendre <br/>alors jetez un coup d'oeil à
             mes compétences et services.
             </div>
           <div className='flex flex-col items-center md:items-start pt-2'>
             <div className='flex'>
-            <a className='flex justify-center items-center bg-pblue p-2 m-2  rounded-2xl shadow-lg transition-all delay-150 hover:bg-fpblue hover:brightness-150 cursor-pointer' >
+            <a href='https://github.com/geekdario' target="_blank" className='flex justify-center items-center bg-pblue p-2 m-2  rounded-2xl shadow-lg transition-all delay-150 hover:bg-fpblue hover:brightness-150 cursor-pointer' >
                 <Image src={GitHub} alt="l'image de GitHub"className='w-8'/>
                 <span className='px-2 text-white font-bold'>GitHub</span>
               </a>
-              <a  className='flex justify-center items-center bg-pblue p-2 m-2 rounded-2xl shadow-lg transition-all delay-150 hover:bg-fpblue hover:brightness-150 cursor-pointer'>
+
+              <a href='https://www.linkedin.com/in/kouakou-medard-kouadio-56247a175' target='_blank' className='flex justify-center items-center bg-pblue p-2 m-2 rounded-2xl shadow-lg transition-all delay-150 hover:bg-fpblue hover:brightness-150 cursor-pointer'>
                   <Image src={Linkedln} alt="l'image de Linkedln" className='w-8'/>
                   <span className='px-2 text-white font-bold  hover:text-gray-50'>Linkedln</span>
               </a>

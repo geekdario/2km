@@ -15,7 +15,7 @@ export const Connaissance = () => {
 
         <div className='flex justify-center items-center flex-col md:flex-row'>
 
-                <Image src={pjt} alt='projet' className='p-10 w-3/6 shadow-2xl bg'/>
+                <Image src={pjt} alt='projet' className='p-10 md:w-3/6 shadow-2xl'/>
             <div className='mx-6'>
                 <div className='flex justify-center pt-2 md:justify-start items-center'>
                     <Image src={imreact} alt='React' className='w-12 pr-2' /> 

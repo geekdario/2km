@@ -17,7 +17,7 @@ export const Service = () => {
        
        <div className='flex justify-center flex-wrap items-center w-full'>
 
-       <div className='grid grid-cols-1 gap-4 lg:grid-cols-4 md:gap-6 md:mx-auto sm:grid-cols-2'>
+       <div className='grid grid-cols-1 gap-4 lg:grid-cols-4 md:gap-4 md:grid-cols-3 sm:grid-cols-2'>
         
         <div className='flex flex-col items-center justify-center border-dashed border-2 shadow-2xl border-pblue w-60 pt-4 rounded-xl transition-all cursor-pointer hover:bg-pblue hover:transition-all hover:-translate-y-2 md:hover:-translate-y-4'>
             <div className='rounded-full bg-white w-20 h-20 p-5 shadow-md'>

@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { Bars3Icon } from '@heroicons/react/24/solid'
 import { XMarkIcon } from '@heroicons/react/24/solid'
 
+
 export const Navbar = () => {
 
        const [isopen,SetIsopen]=useState<boolean>(false)
@@ -26,7 +27,7 @@ export const Navbar = () => {
         <li className='mx-4 hover:border-b-4 hover: border-b-pblue transition-all delay-150 hover:rounded'><a href="#">Contact</a></li>
         
       </ul>
-      <a href="#" className='hidden md:block -transition-all bg-pblue  ml-10 py-2 px-3 rounded-full hover:bg-white hover:text-pblue hover:scale-110'>Telecharger CV</a>
+      <a href="assets/cvmedard.pdf" download className='hidden md:block -transition-all bg-pblue  ml-10 py-2 px-3 rounded-full hover:bg-white hover:text-pblue hover:scale-110'>Telecharger CV</a>
       </div>
       <div className='absolute right-4 md:hidden'>
         <button onClick={()=>handleClick()}>
