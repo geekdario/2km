@@ -1,4 +1,5 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
 import Image from "next/image"
 import Gmail from "@/public/assets/email.svg"
 import GitHub from "@/public/assets/github.svg"
@@ -7,14 +8,30 @@ import Geek from "@/public/assets/geek.png"
 import imheroreact from '@/public/assets/React.svg'
 import imherojs from '@/public/assets/javascript.png'
 import imherotail from '@/public/assets/Tailwindcss.svg'
+import Typewriter from 'typewriter-effect';
 
 export const Hero = () => {
+//   interface Fonctions{
+//     id:number;
+//     Fonction:string;
+//  }
+      // const foncslide:Fonctions=[{id:1,Fonction:"Web"},{id:2,Fonction:"Desktop"}]
+    
+
+          
+
   return (
     <div  className=' w-full md:flex flex-wrap justify-center items-center md:pt-16 '>
         <div className="">
           <div className='text-center text-xl md:text-left'>Salut! je suis- </div>
           <h2 className=' text-3xl text-center md:text-left md:text-4xl text-pblue font-extrabold'>Kouadio Kouakou Médard</h2>
-          <h3 className=' text-center text-3xl sm:text-xl md:text-2xl md:text-left font-extrabold'>Développeur Web & Desktop & Webdesigner</h3>
+          <h3 className='text-center text-3xl sm:flex sm:text-xl md:text-2xl md:text-left font-extrabold'><span className='px-2'>Développeur</span> <Typewriter
+                options={{
+                  strings: ['Web', 'Desktop'],
+                  autoStart: true,
+                  loop: true,
+                }} /> <span>&Webdesigner</span>
+                </h3>
           <div className='text-xs text-center pt-6 md:text-sm md:text-left'>
             Passionné du monde de l'informatique plus précisément<br/>  en développement d'applications,j'en ai décidé d'en faire <br/> mon métier. De nature curieuse, le monde de l'informatique<br/>  permet de m'épanouir et d'une autre façon d'apprendre <br/>alors jetez un coup d'oeil à
             mes compétences et services.
