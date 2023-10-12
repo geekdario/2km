@@ -22,11 +22,11 @@ export const Navbar = () => {
       <div className={` md:flex justify-center items-center ${isopen ? "block absolute z-10 bg-fpblue w-42 right-2 top-16 rounded-lg shadow shadow-black text-center text-xl p-5" :"hidden"}`}>
         <div className=" absolute md:hidden border-l-[10px] border-l-transparent  border-b-[12px] border-b-fpblue border-r-[10px] border-r-transparent -top-3 right-4">
               </div>
-      <ul className=' md:flex justify-center items-center'>
-        <li className='mx-4 border-b-4 border-b-pblue transition-all rounded hover:border-b-4 '><a href="#">Competences</a></li>
-        <li className='mx-4  hover:border-b-4 hover: border-b-pblue transition-all delay-150 hover:rounded '><a href="#">Services</a></li>
-        <li className='mx-4  hover:border-b-4 hover: border-b-pblue transition-all delay-150 hover:rounded '><a href="#">Projets</a></li>
-        <li className='mx-4 hover:border-b-4 hover: border-b-pblue transition-all delay-150 hover:rounded'><a href="#">Contact</a></li>
+      <ul className=' md:flex justify-center items-center font-extrabold uppercase md:lowercase'>
+        <li className='mx-4 md:border-b-4 md: border-b-pblue transition-all rounded md:hover:border-b-4 hover:text-fpblue hover:brightness-150'><a href="#">Competences</a></li>
+        <li className='mx-4  md:hover:border-b-4 hover: border-b-pblue transition-all delay-150 hover:rounded hover:text-fpblue hover:brightness-150'><a href="#">Services</a></li>
+        <li className='mx-4  md:hover:border-b-4 md:hover: border-b-pblue transition-all delay-150 hover:rounded hover:text-fpblue hover:brightness-150'><a href="#">Projets</a></li>
+        <li className='mx-4 md:hover:border-b-4 md:hover: border-b-pblue transition-all delay-150 hover:rounded hover:text-fpblue hover:brightness-150'><a href="#">Contact</a></li>
         
       </ul>
       <a href="assets/cvmedard.pdf" download className='hidden md:block -transition-all bg-pblue  ml-10 py-2 px-3 rounded-full hover:bg-white hover:text-pblue hover:scale-110'>Telecharger CV</a>
