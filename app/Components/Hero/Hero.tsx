@@ -24,15 +24,15 @@ export const Hero = () => {
     <div  className=' w-full md:flex flex-wrap justify-center items-center md:pt-16 '>
         <div className="">
           <div className='text-center text-xl md:text-left'>Salut! je suis- </div>
-          <h2 className=' text-3xl text-center md:text-left md:text-4xl text-pblue font-extrabold'>Kouadio Kouakou Médard</h2>
-          <h3 className='text-center text-3xl sm:flex sm:text-xl md:text-2xl md:text-left font-extrabold'><span className='px-2'>Développeur</span> <Typewriter
+          <h2 className=' text-3xl text-center  md:text-left sm:text-4xl text-pblue font-extrabold'>Kouadio Kouakou Médard</h2>
+          <h3 className='text-center text-3xl sm:flex sm:justify-center sm:text-2xl md:text-left md:justify-start font-extrabold'><span className='mr-4'>Développeur</span> <Typewriter
                 options={{
                   strings: ['Web', 'Desktop'],
                   autoStart: true,
                   loop: true,
                 }} /> <span>&Webdesigner</span>
                 </h3>
-          <div className='text-xs text-center pt-6 md:text-sm md:text-left'>
+          <div className='text-xs text-center pt-6 sm:text-sm md:text-left'>
             Passionné du monde de l'informatique plus précisément<br/>  en développement d'applications,j'en ai décidé d'en faire <br/> mon métier. De nature curieuse, le monde de l'informatique<br/>  permet de m'épanouir et d'une autre façon d'apprendre <br/>alors jetez un coup d'oeil à
             mes compétences et services.
             </div>
@@ -64,7 +64,7 @@ export const Hero = () => {
             <div className='flex relative bg-gradient-to-tr from-pblue via-pblue to-white  w-64 h-96  rounded-3xl shadow-lg '>
            
             </div>
-            <Image src={Geek} alt='photo geek' className='absolute right-24 -top-8 w-36 sm:left-8 md:-top-8 md:right-12'/>
+            <Image src={Geek} alt='photo geek' className='absolute right-24 -top-8 w-36 sm:left-8 md:-top-8 '/>
             <Image src={imherojs} alt='photo js' className='absolute w-10 top-2 right-12 sm:left-56  rounded shadow-lg animate-bounce'/>
             <Image src={imheroreact} alt='photo react' className='absolute w-12 top-6 -left-6 rounded  animate-bounce [animation-delay:-.3s]'/>
             <Image src={imherotail} alt='photo tailwind' className='absolute w-12 bottom-5 -left-5 rounded  animate-bounce [animation-delay:-.5s]'/>
