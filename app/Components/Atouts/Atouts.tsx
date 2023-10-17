@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import programmer from "@/public/assets/Programmer-pana.svg"
+import {motion} from "framer-motion"
 
 
 export const Atouts = () => {
@@ -27,9 +28,9 @@ export const Atouts = () => {
   return (
     <div className='flex-wrap md:flex justify-center items-center w-full py-5'>
         
-        <div className='' >
-            <Image src={programmer} alt='le programmeur' className=' h-72 md:h-96  transition-all hover:opacity-70 hover:transition-all hover:delay-150 '/>
-        </div>
+        <motion.div whileHover={{ scale: 1.2 }} onHoverStart={e => {}} onHoverEnd={e => {}} className='' >
+            <Image  src={programmer} alt='le programmeur' className=' h-72 md:h-96  transition-all hover:opacity-70 hover:transition-all hover:delay-150 '/>
+        </motion.div>
         <div className='md:flex flex-col '>
             <h2 className='text-2xl md:text-4xl md:leading-normal text-center font-semibold'>Découverte de certains<br/><span className='bg-pblue px-2 mr-2 font-extrabold shadow-lg rounded-tl-2xl rounded-br-2xl mt-2'>Atouts</span>durant ma formation</h2>
             <p className='pt-11 font-sans'>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> A officia molestiae dolorum tempora ut accusamus cupiditate!<br/> Nesciunt tempora reiciendis libero voluptate!</p>

@@ -4,6 +4,7 @@ import {BriefcaseIcon} from "@heroicons/react/24/solid"
 import {ClockIcon} from "@heroicons/react/24/solid"
 import {MapPinIcon} from "@heroicons/react/24/solid"
 import {ComputerDesktopIcon} from "@heroicons/react/24/solid"
+import { motion } from "framer-motion"
 
 
 
@@ -61,9 +62,9 @@ export const Hireme = () => {
         
     </div>
 
-    <div className='' >
+    <motion.div whileHover={{ scale: 1.2 }} onHoverStart={e => {}} onHoverEnd={e => {}} className='' >
         <Image src={pgmservices} alt='le programmeur' className=' h-72 md:h-96  transition-all hover:opacity-70 hover:transition-all hover:delay-150 '/>
-    </div>
+    </motion.div>
 
     
     
