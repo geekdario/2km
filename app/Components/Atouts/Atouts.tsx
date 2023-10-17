@@ -33,14 +33,14 @@ export const Atouts = () => {
         </div>
         <div className='md:flex flex-col '>
             <h2 className='text-2xl md:text-4xl md:leading-normal text-center font-semibold'>Découverte de certains<br/><span className='bg-pblue px-2 mr-2 font-extrabold shadow-lg rounded-tl-2xl rounded-br-2xl mt-2'>Atouts</span>durant ma formation</h2>
-            <p className='pt-11 font-sans'>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> A officia molestiae dolorum tempora ut accusamus cupiditate!<br/> Nesciunt tempora reiciendis libero voluptate!</p>
+            <p className='pt-11 font-sans text-center md:text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> A officia molestiae dolorum tempora ut accusamus cupiditate!<br/> Nesciunt tempora reiciendis libero voluptate!</p>
             <ul className=''> 
                 {Listatouts.map((List)=>(<li key={List.id} className='py-3 '>
                     
                     <h3 className='text-xl text-center md:text-left md:text-2xl font-extrabold uppercase pr-6'>
                      <span className='text-pblue text-2xl md:text-3xl '>0{List.id}.</span> {List.title}   
                     </h3>
-                    <p className='pl-16 font-sans'>
+                    <p className='pl-16 font-sans text-center md:text-left'>
                         {List.Description}
                     </p>
                     
