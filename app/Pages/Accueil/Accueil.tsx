@@ -1,18 +1,23 @@
+"use client"
 import Image from 'next/image'
 import { Competences } from '@/app/Components/Comptences/Competences'
 import { Hero } from '@/app/Components/Hero/Hero'
 import { Navbar } from '@/app/Components/Navbar/Navbar'
-import { Projets } from '@/app/Components/Projets/Projets'
+// import { Projets } from '@/app/Components/Projets/Projets'
 import React from 'react'
 import { Service } from '@/app/Components/Servicess/Service'
 import { Connaissance } from '@/app/Components/Connaissance/Connaissance'
 import { Footer } from '@/app/Components/Footer/Footer'
+import { Contact } from '@/app/Components/Contact/Contact'
+import { Atouts } from '@/app/Components/Atouts/Atouts'
+//  import { motion } from "framer-motion"
 
 
 
 export default function Accueil() {
   return (
-    <div className='relative w-full h-full text-white'>
+    <div 
+    className='relative w-full h-full text-white'>
      {/* <Image src={Background} alt="l'arriere plan de ma page " className='w-full absolute -z-10 bg-no-repeat  bg-cover'/> */}
 
      <div className='flex justify-center items-center  bg-fpblue p-2 right-0 top-72 fixed z-20 shadow-3xl shadow-white rounded-l-lg hover:bg-pblue cursor-pointer'>
@@ -36,7 +41,8 @@ export default function Accueil() {
      <Competences/>
      <Service/>
      <Connaissance/>
-   
+     {/* <Contact/> */}
+     <Atouts/>
      <Footer/>
 
      I</div>

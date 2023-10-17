@@ -32,7 +32,7 @@ export const Hero = () => {
                   loop: true,
                 }} /> <span>&Webdesigner</span>
                 </h3>
-          <div className='text-xs text-center pt-6 sm:text-sm md:text-left'>
+          <div className='text-xs text-center pt-4 sm:text-sm md:text-left'>
             Passionné du monde de l'informatique plus précisément<br/>  en développement d'applications,j'en ai décidé d'en faire <br/> mon métier. De nature curieuse, le monde de l'informatique<br/>  permet de m'épanouir et d'une autre façon d'apprendre <br/>alors jetez un coup d'oeil à
             mes compétences et services.
             </div>
