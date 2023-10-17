@@ -10,6 +10,7 @@ import { Connaissance } from '@/app/Components/Connaissance/Connaissance'
 import { Footer } from '@/app/Components/Footer/Footer'
 import { Contact } from '@/app/Components/Contact/Contact'
 import { Atouts } from '@/app/Components/Atouts/Atouts'
+import { Hireme } from '@/app/Components/Hire/Hireme'
 //  import { motion } from "framer-motion"
 
 
@@ -43,6 +44,7 @@ export default function Accueil() {
      <Connaissance/>
      {/* <Contact/> */}
      <Atouts/>
+     <Hireme/>
      <Footer/>
 
      I</div>
