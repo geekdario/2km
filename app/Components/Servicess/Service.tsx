@@ -26,7 +26,7 @@ export const Service = () => {
                 <Image src={webdesign} alt="Webdesign" className='w-10 '/>
             </div>
             <h3 className='mt-2 text-2xl font-extrabold'>Web design</h3>
-            <p className='text-center p-5'>Réalisation complete de maquette pour votre site vitrine,application web et mobile </p>
+            <p className='text-center p-5 font-sans'>Réalisation complete de maquette pour votre site vitrine,application web et mobile </p>
         </div>
 
         <div className='flex flex-col items-center justify-center border-dashed border-2 shadow-2xl border-pblue w-60 pt-4 rounded-xl transition-all cursor-pointer hover:bg-pblue hover:transition-all hover:-translate-y-2 md:hover:-translate-y-4'>
@@ -34,7 +34,7 @@ export const Service = () => {
                 <Image src={integration} alt="Webdesign" className='w-10 '/>
             </div>
             <h3 className='mt-2 text-2xl font-extrabold'>Integration Web</h3>
-            <p className='text-center p-5'>Conversion d'une maquette en site vitrine,application web et mobile </p>
+            <p className='text-center p-5 font-sans'>Conversion d'une maquette en site vitrine,application web et mobile </p>
         </div>
 
 
@@ -43,7 +43,7 @@ export const Service = () => {
                 <Image src={coding} alt="Webdesign" className='w-10 '/>
             </div>
             <h3 className='mt-2 text-2xl font-extrabold'>Développement</h3>
-            <p className='text-center p-5'>Développement sur mesure de votre site vitrine,application web et mobile </p>
+            <p className='text-center p-5 font-sans'>Développement sur mesure de votre site vitrine,application web et mobile </p>
         </div>
 
 
@@ -52,7 +52,7 @@ export const Service = () => {
                 <Image src={Graphique} alt="Webdesign" className='w-10 '/>
             </div>
             <h3 className='mt-2 text-2xl font-extrabold'>Design Graphique</h3>
-            <p className='text-center p-5'>Identifiez-vous par votre logo,Flyer,Carte de visite etc...</p>
+            <p className='text-center p-5 font-sans'>Identifiez-vous par votre logo,Flyer,Carte de visite etc...</p>
         </div>
 
 
