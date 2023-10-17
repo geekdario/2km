@@ -36,8 +36,8 @@ export default function Accueil() {
             </div>
        </div>
      </div>
-     <div className=' bg-bg-col bg-opacity-50 backdrop-blur w-full '>
-    <Navbar/>
+     <div className='w-full'>
+    {/* <Navbar/> */}
      <Hero/>
      <Competences/>
      <Service/>
@@ -45,9 +45,9 @@ export default function Accueil() {
      {/* <Contact/> */}
      <Atouts/>
      <Hireme/>
-     <Footer/>
+     {/* <Footer/> */}
 
-     I</div>
+     </div>
    
     {/* navbar */}
      {/* heros */}
