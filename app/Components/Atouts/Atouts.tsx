@@ -5,26 +5,29 @@ import programmer from "@/public/assets/Programmer-pana.svg"
 
 
 export const Atouts = () => {
+    
     type Lisatout={
         id:number,
         title:string,
         Description:string
     }
-    const Listatouts :Lisatout[]=[{
-        id:1,
-        title:"Créatif",
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit"
-    },
-    {
-        id:2,
-        title:"Solutionniste",
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit"
-    },
-    {
-        id:3,
-        title:"Adaptabilité",
-        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit"
-    }]
+                    const Listatouts :Lisatout[]=[{
+                        id:1,
+                        title:"Créatif",
+                        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                    },
+                    {
+                        id:2,
+                        title:"Solutionniste",
+                        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                    },
+                    {
+                        id:3,
+                        title:"Adaptabilité",
+                        Description:"Lorem ipsum dolor sit amet consectetur adipisicing elit"
+                    }]
+
+
   return (
     <div className='flex-wrap md:flex justify-center items-center w-full py-5'>
         

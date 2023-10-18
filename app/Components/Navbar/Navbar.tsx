@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { Bars3Icon } from '@heroicons/react/24/solid'
 import { XMarkIcon } from '@heroicons/react/24/solid'
+import { DocumentArrowDownIcon} from '@heroicons/react/24/solid'
 // import { motion } from "framer-motion"
 
 
@@ -31,7 +32,7 @@ export const Navbar = () => {
         <li className='mx-4 md:hover:border-b-4 md:hover: border-b-pblue transition-all delay-150 hover:rounded hover:text-fpblue hover:brightness-150'><a href="#">Contact</a></li>
         
       </ul>
-      <a href="assets/cvmedard.pdf" download className='hidden md:block -transition-all bg-pblue  ml-10 py-2 px-3 rounded-full hover:bg-white hover:text-pblue hover:scale-110'>Telecharger CV</a>
+      <a href="assets/cvmedard.pdf" download className='hidden md:flex md:justify-between transition-all delay-150 bg-pblue  ml-10 py-2 px-3 rounded-full hover:bg-white hover:text-pblue hover:scale-110'><DocumentArrowDownIcon className="h-5  text-blue-500 " /><span className='px-2'>CV</span></a>
       </div>
       <div className='absolute right-4 md:hidden '>
         <button className='border-solid border-2 border-white rounded-md' onClick={()=>handleClick()} >
