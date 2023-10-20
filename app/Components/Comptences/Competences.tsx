@@ -40,7 +40,7 @@ export const Competences = () => {
     <div className='w-full pt-20'>
      
       
-        <h1 className='mt-2 text-3xl font-extrabold leading-relaxed text-center pb-8'> <span className='bg-pblue px-2 mr-2 font-extrabold shadow-lg rounded-tl-2xl rounded-br-2xl'>
+        <h1 className='mt-2 text-xl md:text-3xl font-extrabold leading-relaxed text-center pb-8'> <span className='bg-pblue px-2 mr-2 font-extrabold shadow-lg rounded-tl-2xl rounded-br-2xl'>
           COMPETENCES</span>ACQUISES DURANTS<br/> MES VEILLES</h1>
      
       <div className='flex justify-center items-center'>

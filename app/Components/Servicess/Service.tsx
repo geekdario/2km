@@ -18,8 +18,8 @@ export const Service = () => {
 
        
 
-       <Image src={cercleeffe} alt="cercle effet" className='w-16 absolute -z-10 left-96 top-0'/>
-        <h1 className='mt-2 text-3xl font-extrabold leading-relaxed text-center pb-8'>JE PROPOSE DES <span className='bg-pblue px-2 mr-2 font-extrabold shadow-lg rounded-tl-2xl rounded-br-2xl '>SERVICES</span><br/> DE QUALITES</h1>
+       <Image src={cercleeffe} alt="cercle effet" className='w-16 absolute -z-10 hidden md:flex md:left-96 md:top-0'/>
+        <h1 className='mt-2 text-xl md:text-3xl font-extrabold leading-relaxed text-center pb-8'>JE PROPOSE DES <span className='bg-pblue px-2 mr-2 font-extrabold shadow-lg rounded-tl-2xl rounded-br-2xl '>SERVICES</span><br/> DE QUALITES</h1>
     
        <div className='flex justify-center flex-wrap items-center w-full'>
 
