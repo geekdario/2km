@@ -67,7 +67,7 @@ export const Hireme = () => {
 
     <div className='' >
       
-        <Image src={pgmservices} alt='le programmeur' className=' h-72 sm:52 md:h-96 animate-none  transition-all hover:opacity-70 hover:transition-all hover:delay-150'/>
+        <Image src={pgmservices} alt='le programmeur' className=' h-72 w-70 sm:w-92 md:w-auto md:h-96 animate-none  transition-all hover:opacity-70 hover:transition-all hover:delay-150'/>
     </div>
 
     
