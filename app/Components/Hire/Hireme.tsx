@@ -4,6 +4,8 @@ import {BriefcaseIcon} from "@heroicons/react/24/solid"
 import {ClockIcon} from "@heroicons/react/24/solid"
 import {MapPinIcon} from "@heroicons/react/24/solid"
 import {ComputerDesktopIcon} from "@heroicons/react/24/solid"
+import cercleeffe from "@/public/assets/cercleeffect.png"
+
 // import { motion } from "framer-motion"
 
 
@@ -13,8 +15,9 @@ export const Hireme = () => {
     <div className=' md:flex justify-center items-center w-full py-14 flex-wrap'>
         
     
-    <div className='flex-wrap  md:flex flex-col md:items-start'>
-        <h2 className='text-2xl text-center md:text-4xl md:leading-normal  font-semibold'>Aviez-vous besoin<br/>de mes <span className='bg-pblue px-2 mr-2 font-extrabold shadow-lg rounded-tl-2xl rounded-br-2xl mt-2'>Services</span>?</h2>
+    <div className='flex-wrap  md:flex flex-col md:items-start relative'>
+    <Image src={cercleeffe} alt="cercle effet" className='w-16  absolute -z-10 -left-4 -top-2'/>
+        <h2 className='text-2xl text-center md:text-4xl md:leading-relaxed  font-semibold uppercase'>Aviez-vous besoin<br/>de mes <span className='bg-pblue px-2 mr-2 font-extrabold shadow-lg rounded-tl-2xl rounded-br-2xl mt-2'>Services</span>?</h2>
         <p className='pt-11 font-sans text-center md:text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> A officia molestiae dolorum tempora ut accusamus cupiditate!<br/> Nesciunt tempora reiciendis libero voluptate!</p>
         
             <div className='pt-5  grid grid-col-1 sm:grid-cols-2 sm:gap-2 md:gap-3 '>

@@ -6,6 +6,7 @@ import { Design } from './Comptce/Design'
 import { Autres } from './Comptce/Autres'
 import Image from 'next/image'
 import telecom from "@/public/assets/Telecommuting.png"
+import cercleeffe from "@/public/assets/cercleeffect.png"
 
 export const Competences = () => {
 
@@ -37,9 +38,11 @@ export const Competences = () => {
 
   return (
     <div className='w-full pt-20'>
-      <h1 className='text-3xl text-center font-extrabold m-3'>
-         -Competences-
-      </h1>
+     
+      
+        <h1 className='mt-2 text-3xl font-extrabold leading-relaxed text-center pb-8'> <span className='bg-pblue px-2 mr-2 font-extrabold shadow-lg rounded-tl-2xl rounded-br-2xl'>
+          COMPETENCES</span>ACQUISES DURANTS<br/> MES VEILLES</h1>
+     
       <div className='flex justify-center items-center'>
       <Image src={telecom} alt='telecom' className='w-1/3'/>
 

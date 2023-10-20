@@ -5,18 +5,22 @@ import Image from 'next/image'
  import coding from "@/public/assets/coding.svg"
  import Graphique from "@/public/assets/graphic.svg"
  import download from "@/public/assets/download.svg"
+ import cercleeffe from "@/public/assets/cercleeffect.png"
+
 //  import { motion } from "framer-motion"
  //import round from "@/public/assets/round.png"
 import React from 'react'
 
 export const Service = () => {
   return (
-    <div className='w-full mt-20'>
+    <div className='w-full mt-20 relative'>
+         
 
-        <h1 className='text-3xl text-center m-20 font-extrabold'>
-         -Services-
-       </h1>
        
+
+       <Image src={cercleeffe} alt="cercle effet" className='w-16 absolute -z-10 left-96 top-0'/>
+        <h1 className='mt-2 text-3xl font-extrabold leading-relaxed text-center pb-8'>JE PROPOSE DES <span className='bg-pblue px-2 mr-2 font-extrabold shadow-lg rounded-tl-2xl rounded-br-2xl '>SERVICES</span><br/> DE QUALITES</h1>
+    
        <div className='flex justify-center flex-wrap items-center w-full'>
 
        <div  className='grid grid-cols-1 gap-4 lg:grid-cols-4 md:gap-4 md:grid-cols-3 sm:grid-cols-2'>
@@ -60,7 +64,7 @@ export const Service = () => {
       
 
        </div>
-             <div>
+         <div>
 
                     <div className='w-full mt-20 flex justify-center items-center'>
                         <div className=' bg-pblue w-3/4 h-60 flex justify-around items-center flex-col sm:flex-col sm:px-3 md:flex-row shadow-2xl'>
@@ -73,7 +77,7 @@ export const Service = () => {
                     
                     
                     </div>
-                </div>
+                </div> 
 
     </div>
   )
