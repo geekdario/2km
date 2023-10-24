@@ -51,10 +51,13 @@ const config: Config = {
       
     },
     extend: {
-    //  backgroundImage: {
-    //     'back-image': "url(`'portfolio/public/assets/Back2.jpg'`)",
-        
-    //   }
+    
+      opacity: {
+      '99': '.99',
+      '98': '.98',
+      '97': '.97',
+      '96': '.96',
+    }
   
     },
   },

@@ -1,3 +1,6 @@
+import { Footer } from './Components/Footer/Footer'
+import { Navbar } from './Components/Navbar/Navbar'
+
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -14,8 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body>
+       
+      <body className='relative w-full text-white bg-bg-col bg-opacity-100'>
+        <Navbar/>
         {children}
+        <Footer/>
         
         </body>
     </html>

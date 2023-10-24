@@ -7,7 +7,7 @@ import imTypescript from "@/public/assets/typescript.svg"
 
 export const Connaissance = () => {
   return (
-    <div id='projets' className='w-full my-5 bg-fpblue bg-opacity-20  '>
+    <div  className='w-full my-5 bg-fpblue bg-opacity-20  '>
         <div className='p-9'>
         <h3 className='text-2xl font-extrabold'>Projet en avant</h3>
         <p className='text-gray-200'>un projet de validation de connaissance apres ma formation</p>

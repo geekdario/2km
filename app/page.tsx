@@ -2,18 +2,19 @@
 import Image from 'next/image'
 
 import Background from '@/public/assets/Back2.jpg'
-import Accueil from "./Pages/Accueil/Accueil";
+import Accueil from "./Components/Accueil/Accueil";
 import { Navbar } from './Components/Navbar/Navbar';
 import { Footer } from './Components/Footer/Footer';
 
 export default function Home() {
   return (
-    <div className="relative w-full text-white bg-bg-col">
-        <Navbar/>
+    <div className="">
+       
         <Accueil/>
-        <Footer/>
+       
    {/* <Image src={Background} alt="l'arriere plan de ma page " className='w-full h-full absolute -z-50 top-0 
     '/> */}
+  
    <div className='flex justify-center items-center  bg-fpblue p-2 right-0 top-72 fixed z-20 shadow-3xl shadow-white rounded-l-lg hover:bg-pblue cursor-pointer'>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6 mr-2 ">
           <path fillRule="evenodd" d="M19.5 9.75a.75.75 0 01-.75.75h-4.5a.75.75 0 01-.75-.75v-4.5a.75.75 0 011.5 0v2.69l4.72-4.72a.75.75 0 111.06 1.06L16.06 9h2.69a.75.75 0 01.75.75z" clipRule="evenodd" />
