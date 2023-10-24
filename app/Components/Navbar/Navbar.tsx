@@ -1,5 +1,5 @@
-"use client"
-import React, { useEffect, useState } from 'react'
+
+import React, {useState } from 'react'
 import { Bars3Icon } from '@heroicons/react/24/solid'
 import { XMarkIcon } from '@heroicons/react/24/solid'
 import { DocumentArrowDownIcon} from '@heroicons/react/24/solid'
