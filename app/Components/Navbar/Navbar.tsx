@@ -1,5 +1,5 @@
-
-import React, {useState } from 'react'
+"use client"
+import React, {useState,useEffect } from 'react'
 import { Bars3Icon } from '@heroicons/react/24/solid'
 import { XMarkIcon } from '@heroicons/react/24/solid'
 import { DocumentArrowDownIcon} from '@heroicons/react/24/solid'
@@ -18,23 +18,25 @@ export const Navbar = () => {
   
        }
 
-      
-               const HandleScroll=()=>{
+           useEffect(()=>{
+            
+            const HandleScroll=()=>{
 
-                   if(window.scrollY>100){
-                   
-                    SetPosfixe(true) 
-                    
-                   }
-                   else{
-                    SetPosfixe(false)
-                  
-                   }
-                    
-               }
-          
-               window.addEventListener('scroll',HandleScroll)
+              if(window.scrollY>100){
+              
+               SetPosfixe(true) 
+               
+              }
+              else{
+               SetPosfixe(false)
+             
+              }
+               
+          }
+     
+          window.addEventListener('scroll',HandleScroll)
 
+           },[])
              
 
 
