@@ -31,12 +31,12 @@ export const Atouts = () => {
 
 
   return (
-    <div className='flex-wrap md:flex justify-center items-center w-full py-5'>
+    <div id='atouts' className='flex-wrap md:flex justify-center items-center w-full py-5'>
         
         <div  className='' >
             <Image  src={programmer} alt='le programmeur' className=' h-72 w-70  md:w-auto md:h-96  transition-all hover:opacity-70 hover:transition-all hover:delay-150 '/>
         </div>
-        <div className='md:flex flex-col  relative'>
+        <div className='md:flex flex-col relative z-10'>
         <Image src={cercleeffe} alt="cercle effet" className='w-16  absolute hidden md:flex -z-10 md:left-3 -top-2'/>
             <h2 className='text-xl md:text-4xl md:leading-relaxed text-center font-semibold uppercase'>Découverte de certains<br/><span className='bg-pblue px-2 mr-2 font-extrabold shadow-lg rounded-tl-2xl rounded-br-2xl mt-2'>Atouts</span>durant ma formation</h2>
             <p className='pt-11 font-sans text-center md:text-left pl-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> A officia molestiae dolorum tempora ut accusamus cupiditate!<br/> Nesciunt tempora reiciendis libero voluptate!</p>

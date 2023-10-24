@@ -15,7 +15,7 @@ export const Hireme = () => {
     <div className=' md:flex justify-center items-center w-full py-14 flex-wrap'>
         
     
-    <div className='flex-wrap  md:flex flex-col md:items-start relative'>
+    <div className='flex-wrap  md:flex flex-col md:items-start relative z-10'>
     <Image src={cercleeffe} alt="cercle effet" className='w-16  absolute -z-10 hidden md:flex md:-left-4 md:-top-2'/>
         <h2 className='text-xl text-center md:text-4xl md:leading-relaxed  font-semibold uppercase'>Aviez-vous besoin<br/>de mes <span className='bg-pblue px-2 mr-2 font-extrabold shadow-lg rounded-tl-2xl rounded-br-2xl mt-2'>Services</span>?</h2>
         <p className='pt-11 font-sans text-center md:text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> A officia molestiae dolorum tempora ut accusamus cupiditate!<br/> Nesciunt tempora reiciendis libero voluptate!</p>

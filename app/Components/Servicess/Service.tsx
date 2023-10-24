@@ -13,7 +13,7 @@ import React from 'react'
 
 export const Service = () => {
   return (
-    <div className='w-full mt-20 relative'>
+    <div id='services' className='w-full mt-20 relative z-10'>
          
 
        
