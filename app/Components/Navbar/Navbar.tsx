@@ -28,6 +28,7 @@ export const Navbar = () => {
               if(window.scrollY>100){
               
                SetPosfixe(true) 
+               SetIsopen(false)
                
               }
               else{
