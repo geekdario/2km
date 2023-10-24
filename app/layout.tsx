@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
        
-      <body className='relative w-full text-white bg-bg-col bg-opacity-100'>
+      <body className='relative w-full text-white bg-bg-col '>
         <Navbar/>
         {children}
         <Footer/>

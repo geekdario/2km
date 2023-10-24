@@ -4,8 +4,8 @@ import Image from 'next/image'
  import integration from "@/public/assets/integration.svg"
  import coding from "@/public/assets/coding.svg"
  import Graphique from "@/public/assets/graphic.svg"
- import download from "@/public/assets/download.svg"
- import cercleeffe from "@/public/assets/cercleeffect.png"
+ import { DocumentArrowDownIcon} from '@heroicons/react/24/solid'
+  import cercleeffe from "@/public/assets/cercleeffect.png"
 
 //  import { motion } from "framer-motion"
  //import round from "@/public/assets/round.png"
@@ -72,7 +72,7 @@ export const Service = () => {
                                 <div className='text-3xl font-extrabold'>En savoir plus sur mon parcours</div>
                                 <div className='text-gray-200'>Ma détermination c'est ça ma magie</div>
                             </div>
-                            <a href='assets/cvmedard.pdf' download className='flex justify-center items-center border-2 bg-pblue bg-opacity-60 text-xl px-8 py-3 shadow-2xl rounded hover:bg-fpblue cursor-pointer'><Image src={download} alt='download'className='w-10' /><span className='pl-2'>Télécharger</span></a>
+                            <a href='assets/cvmedard.pdf' download className='flex justify-center items-center border-2 bg-pblue bg-opacity-60 text-xl px-8 py-3 shadow-2xl rounded hover:bg-fpblue cursor-pointer'><DocumentArrowDownIcon className="h-5  text-blue-500 " /><span className='pl-2'>Télécharger</span></a>
                         </div>
                     
                     
