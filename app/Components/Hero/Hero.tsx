@@ -9,7 +9,7 @@ import imheroreact from '@/public/assets/React.svg'
 import imherojs from '@/public/assets/javascript.png'
 import imherotail from '@/public/assets/Tailwindcss.svg'
 import Typewriter from 'typewriter-effect';
-
+import {motion} from "framer-motion"
 export const Hero = () => {
 //   interface Fonctions{
 //     id:number;
@@ -21,7 +21,7 @@ export const Hero = () => {
           
 
   return (
-    <div  className=' w-full md:flex flex-wrap justify-center items-center md:pt-16 '>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 100 }}  transition={{ duration: 0.5 }}  className=' w-full md:flex flex-wrap justify-center items-center md:pt-16 '>
         <div className="">
           <div className='text-center text-xl md:text-left'>Salut! je suis- </div>
           <h2 className=' text-3xl text-center  md:text-left sm:text-4xl text-pblue font-extrabold'>Kouadio Kouakou Médard</h2>
@@ -74,6 +74,6 @@ export const Hero = () => {
 
 
 
-      </div>
+      </motion.div>
   )
 }

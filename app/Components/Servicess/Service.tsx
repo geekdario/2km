@@ -7,11 +7,12 @@ import Image from 'next/image'
  import { DocumentArrowDownIcon} from '@heroicons/react/24/solid'
   import cercleeffe from "@/public/assets/cercleeffect.png"
 
-//  import { motion } from "framer-motion"
  //import round from "@/public/assets/round.png"
 import React from 'react'
 
 export const Service = () => {
+
+    
   return (
     <div id='services' className='w-full mt-20 relative z-10'>
          
@@ -23,7 +24,7 @@ export const Service = () => {
     
        <div className='flex justify-center flex-wrap items-center w-full'>
 
-       <div  className='grid grid-cols-1 gap-4 lg:grid-cols-4 md:gap-4 md:grid-cols-3 sm:grid-cols-2'>
+       <div className={`grid grid-cols-1 gap-4 lg:grid-cols-4 md:gap-4 md:grid-cols-3 sm:grid-cols-2`}>
         
         <div className='flex flex-col items-center justify-center border-dashed border-2 shadow-2xl border-pblue w-60 pt-4 rounded-xl transition-all cursor-pointer hover:bg-pblue hover:transition-all hover:-translate-y-2 md:hover:-translate-y-4'>
             <div className='rounded-full bg-white w-20 h-20 p-5 shadow-md'>
@@ -72,7 +73,7 @@ export const Service = () => {
                                 <div className='text-3xl font-extrabold'>En savoir plus sur mon parcours</div>
                                 <div className='text-gray-200'>Ma détermination c'est ça ma magie</div>
                             </div>
-                            <a href='assets/cvmedard.pdf' download className='flex justify-center items-center border-2 bg-pblue bg-opacity-60 text-xl px-8 py-3 shadow-2xl rounded hover:bg-fpblue cursor-pointer'><DocumentArrowDownIcon className="h-5  text-blue-500 " /><span className='pl-2'>Télécharger</span></a>
+                            <a href='assets/cvmedard.pdf' download className='flex justify-center items-center border-2 border-white bg-pblue bg-opacity-60 text-xl px-8 py-3 shadow-2xl rounded hover:bg-fpblue cursor-pointer'><DocumentArrowDownIcon className="h-5  text-blue-500 " /><span className='pl-2'>Télécharger</span></a>
                         </div>
                     
                     
