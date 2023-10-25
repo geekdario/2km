@@ -55,7 +55,7 @@ export const Navbar = () => {
         <li className='mx-4 md:py-1 md:px-2   md:border-b-4 md: border-b-pblue transition-all rounded md:hover:border-b-4 hover:text-fpblue hover:brightness-150'>
           <Link spy={true} smooth={true} offset={50} duration={500}  to="Competences" className='cursor-pointer'>Competences</Link></li>
         <li className='mx-4 md:py-1 px-2  md:hover:border-b-4 hover: border-b-pblue transition-all delay-150 hover:rounded hover:text-fpblue hover:brightness-150'><Link spy={true} smooth={true} offset={50} duration={500} to="services" className='cursor-pointer'>Services</Link></li>
-        <li className='mx-4 md:py-2 md:px-2 md:hover:border-b-4 md:hover: border-b-pblue transition-all delay-150 hover:rounded hover:text-fpblue hover:brightness-150'><a onClick={() => router.push('/projet')} className='cursor-pointer'>Projets</a></li>
+        <li className='mx-4 md:py-2 md:px-2 md:hover:border-b-4 md:hover: border-b-pblue transition-all delay-150 hover:rounded hover:text-fpblue hover:brightness-150'><a onClick={() => router.push('/projet')} className='cursor-pointer' href='#'>Projets</a></li>
         <li className='mx-4 md:py-2 md:px-2  md:hover:border-b-4 md:hover: border-b-pblue transition-all delay-150 hover:rounded hover:text-fpblue hover:brightness-150'><Link spy={true} smooth={true} offset={50} duration={500} to="atouts" className='cursor-pointer'>atouts</Link></li>
         
       </ul>
