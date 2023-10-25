@@ -50,7 +50,7 @@ export const Hero = () => {
 
             </div>
             <div className='w-72 mb-8'>
-            <a className='flex justify-center items-center bg-pblue p-2 m-2 rounded-2xl shadow-lg transition-all delay-150 hover:bg-fpblue hover:brightness-150'>
+            <a href='#' className='flex justify-center items-center bg-pblue p-2 m-2 rounded-2xl shadow-lg transition-all delay-150 hover:bg-fpblue hover:brightness-150'>
               <Image src={Gmail} alt="l'image de GitHub" className='w-8 '/>
               <span className='px-3 text-white font-bold '>geekdario95@gmail.com</span></a>
               
