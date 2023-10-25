@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-
+import {motion} from "framer-motion"
 import Background from '@/public/assets/Back2.jpg'
 import Accueil from "./Components/Accueil/Accueil";
 import { Navbar } from './Components/Navbar/Navbar';
@@ -8,7 +8,7 @@ import { Footer } from './Components/Footer/Footer';
 
 export default function Home() {
   return (
-    <div className="">
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 100 }}  transition={{ duration: 0.5 }} className="">
        
         <Accueil/>
        
@@ -38,6 +38,6 @@ export default function Home() {
 
      </div> */}
    
-    </div>
+    </motion.div>
   )
 }
