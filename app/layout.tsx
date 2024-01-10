@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
        
-      <body className='relative w-full text-white bg-bg-col '>
+      <body className='relative w-full text-white bg-bg-col antialiased'>
         <Navbar/>
         <main>
         {children}
