@@ -86,7 +86,7 @@ export const Service = () => {
               </div>
             </div>
             <a
-              href="assets/KOUADIOKOUAKOUMEDARD"
+              href="assets/KOUADIOKOUAKOUMEDARD.pdf"
               download
               className="flex justify-center items-center border-2 border-white bg-pblue bg-opacity-60 text-xl px-8 py-3 shadow-2xl rounded hover:bg-fpblue cursor-pointer"
             >
